@@ -17,14 +17,8 @@ export default Controller.extend({
             console.log(changeset);
             if(changeset.get('isValid')){
                 console.log('Redirecting');
-                if(true)
-                {
-                this.transitionToRoute('login.welcome');
-                }
-                else
-                {
-                    alert('Invalid Email or Password.');
-                }
+                console.log(this.changeset.get('email'));
+                this.transitionToRoute('home.welcome',{id: 'welcome', email: this.changeset.get('email')});
             }else {console.log("Not a valid user");}
         }
     }
