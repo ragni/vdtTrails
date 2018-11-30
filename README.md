@@ -1,4 +1,4 @@
-# login-header
+# vdt-client-app
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd login-header`
+* `cd vdt-client-app`
 * `npm install`
 
 ## Running / Development

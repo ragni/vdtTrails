@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'login-header',
+    modulePrefix: 'vdt-client-app',
     environment,
     rootURL: '/',
     locationType: 'auto',

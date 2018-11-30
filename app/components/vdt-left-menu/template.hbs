@@ -1,0 +1,28 @@
+<div class="nav-side-menu">
+    <div class="brand">Side-Menu</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" ></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                 {{#link-to 'home'}}
+                <li>
+                  <i class="fa fa-dashboard fa-lg"></i> Home
+                </li>
+                {{/link-to}}
+                 {{#link-to 'home'}}
+                <li  data-toggle="collapse" class="collapsed">
+                <i class="fa fa-user-circle-o fa-lg"></i> User Management
+                </li>
+                {{/link-to}}
+                <li data-toggle="collapse" class="collapsed">
+                  <i class="fa fa-edit fa-lg"></i> Ui-Management <span class="arrow"></span>
+                </li>  
+                <ul class="sub-menu">
+                  <li>Overview</li>
+                  <li>Input Type</li>
+                  {{#link-to 'ui-management'}} <li>Form Management</li> {{/link-to}}
+                </ul>
+            </ul>
+     </div>
+</div>

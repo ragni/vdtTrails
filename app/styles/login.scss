@@ -1,0 +1,51 @@
+.bg { 
+    background-image: url('/assets/images/BackgroundImage.png');
+    background-size: auto;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+ }
+
+.outer-wrapper { 
+    display: table;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .inner-wrapper {
+      display:table-cell;
+      vertical-align:middle;
+      padding:15px;
+    }
+    .login-btn { position:fixed; top:15px; right:15px; }
+
+    .form-group{
+        color: rgb(7, 7, 7);
+        font-size: 18px;
+        font-weight: normal;
+        border-top: 1px;
+        border-top-color: black;
+    }
+    .row{
+      background-color: #FFFFFF;
+      height: 455px;
+      width: 391px;
+    }
+    .siemens-header
+    {
+        padding-left: 35px;
+        vertical-align:middle;
+        position: relative;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    .container{
+       padding-left: 400px;
+    
+    }
+    .showError{
+        color: red;
+        font-size: 12px;
+        font-weight: normal;
+    }

@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import validateLogin from 'login-header/validators/login';
+import validateLogin from 'vdt-client-app/validators/login';
 
 module('Unit | Validator | login');
 

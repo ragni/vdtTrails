@@ -1,0 +1,39 @@
+{{!-- <div class="">
+    <img src="/assets/images/Siemens-logo.png"/>
+    <img src="/assets/images/OmniwiseLogo.png"/>
+</div>
+ --}}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="/assets/images/Siemens-logo.png"/>
+      <img src="/assets/images/OmniwiseLogo.png"/>
+    </div>
+    <div class="Apps">
+      <div class="container">     
+      <div class="rowDropdown">
+        <div class="col-sm-2">
+            <div class="dropdown">
+            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Apps
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="home">App1</a>
+                  <a class="dropdown-item" href="home">App2</a>
+                  <a class="dropdown-item" href="home">App3</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="loginHeader">
+        <div class="col-sm-2">
+            {{#link-to 'login'}}
+            {{appName}}
+            {{/link-to}}
+        </div>
+    </div>
+ </div>
+</nav>
+{{yield}}
